@@ -63,10 +63,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				maroon: {
-					DEFAULT: '#800020',
-					light: '#9a1a35',
-					dark: '#600018',
+				blue: {
+					DEFAULT: '#3B82F6',
+					light: '#60A5FA',
+					dark: '#2563EB',
 				},
 			},
 			borderRadius: {
@@ -97,8 +97,7 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out'
 			},
 			fontFamily: {
-				montserrat: ['Montserrat', 'sans-serif'],
-				inter: ['Inter', 'sans-serif'],
+				syne: ['Syne', 'sans-serif'],
 			}
 		}
 	},
