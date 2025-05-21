@@ -21,7 +21,7 @@ const Hero = () => {
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
             <span className="block text-gray-800">Protect Your Phone</span> 
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-maroon to-maroon-dark italics">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-maroon to-maroon-dark">
               With Style
             </span>
           </h1>
