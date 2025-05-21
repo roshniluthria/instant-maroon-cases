@@ -44,22 +44,22 @@ const featuredProducts = [
 
 const categories = [
   {
-    title: "Hard Matte Cases",
+    title: "Anime Collection",
     image: "https://images.unsplash.com/photo-1592813593937-2ed984decafe?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     count: 42,
-    slug: "hard-matte"
+    slug: "anime"
   },
   {
-    title: "Glossy Cases",
+    title: "Pinteresty",
     image: "https://images.unsplash.com/photo-1541019842312-1d9fedf6eb93?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     count: 36,
-    slug: "glossy"
+    slug: "pinteresty"
   },
   {
-    title: "Silicone Cases",
+    title: "Cat-Friendly",
     image: "https://images.unsplash.com/photo-1603574670812-d24560880210?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     count: 51,
-    slug: "silicone"
+    slug: "cat-friendly"
   }
 ];
 
@@ -69,7 +69,7 @@ const Index = () => {
       <Hero />
       
       {/* Categories Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gradient-to-br from-maroon/5 to-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div>
@@ -151,7 +151,7 @@ const Index = () => {
               <span className="text-xl font-semibold">OnePlus</span>
             </div>
             <div className="text-center">
-              <span className="text-xl font-semibold">Huawei</span>
+              <span className="text-xl font-semibold">Oppo</span>
             </div>
           </div>
           <div className="text-center mt-10">
