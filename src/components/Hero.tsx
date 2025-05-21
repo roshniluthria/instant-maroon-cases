@@ -1,11 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-
 const Hero = () => {
-  return (
-    <section className="relative bg-white text-black overflow-hidden py-20">
+  return <section className="relative bg-white text-black overflow-hidden py-20">
       <div className="absolute inset-0 bg-gradient-to-br from-maroon/5 to-white"></div>
       
       {/* 3D Decorative Elements */}
@@ -24,7 +21,7 @@ const Hero = () => {
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
             <span className="block text-gray-800">Protect Your Phone</span> 
-            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-maroon to-maroon-dark">
+            <span className="block text-transparent bg-clip-text bg-gradient-to-r from-maroon to-maroon-dark italics">
               With Style
             </span>
           </h1>
@@ -48,8 +45,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
