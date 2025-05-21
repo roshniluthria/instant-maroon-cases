@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed w-full top-0 z-50 bg-black text-white shadow-md">
+    <header className="fixed w-full top-0 z-50 bg-white text-gray-800 shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
           <span className="font-montserrat font-bold text-2xl">
@@ -30,7 +30,7 @@ const Navbar = () => {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" size="icon" className="text-white hover:text-maroon hover:bg-black">
+          <Button variant="ghost" size="icon" className="text-gray-800 hover:text-maroon hover:bg-gray-100">
             <ShoppingCart className="h-5 w-5" />
           </Button>
           <Button className="bg-maroon hover:bg-maroon-light text-white">
@@ -40,7 +40,7 @@ const Navbar = () => {
         
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-gray-800"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -49,7 +49,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-black px-4 py-5 absolute top-16 left-0 w-full shadow-md">
+        <div className="md:hidden bg-white px-4 py-5 absolute top-16 left-0 w-full shadow-md">
           <nav className="flex flex-col gap-4">
             <Link
               to="/"

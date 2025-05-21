@@ -127,10 +127,10 @@ const Index = () => {
       </section>
       
       {/* Brands Section */}
-      <section className="py-16 bg-black text-white">
+      <section className="py-16 bg-maroon text-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4 text-center">Compatible with All Major Brands</h2>
-          <p className="text-gray-400 text-center max-w-2xl mx-auto mb-12">
+          <p className="text-white/80 text-center max-w-2xl mx-auto mb-12">
             We offer premium cases for all the latest phones from Apple, Samsung, 
             Google, and more. Find the perfect case for your device.
           </p>
@@ -155,7 +155,7 @@ const Index = () => {
             </div>
           </div>
           <div className="text-center mt-10">
-            <Button asChild className="bg-maroon hover:bg-maroon-light text-white px-8">
+            <Button asChild className="bg-white hover:bg-gray-100 text-maroon px-8">
               <Link to="/products">Find Your Phone Case</Link>
             </Button>
           </div>

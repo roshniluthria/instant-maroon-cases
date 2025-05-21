@@ -14,10 +14,10 @@ interface ProductCardProps {
 
 const ProductCard = ({ id, name, price, image, category, phoneBrand }: ProductCardProps) => {
   return (
-    <div className="group border border-gray-200 hover:border-maroon rounded-lg overflow-hidden transition-all duration-300 rotate-3d bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-black">
+    <div className="group border border-gray-200 hover:border-maroon rounded-lg overflow-hidden transition-all duration-300 rotate-3d bg-white shadow-md">
       <Link to={`/products/${id}`} className="block overflow-hidden">
-        <div className="h-64 overflow-hidden flex items-center justify-center bg-gray-100 dark:bg-gray-800">
-          <div className="text-4xl text-gray-300 dark:text-gray-600">No Image</div>
+        <div className="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+          <div className="text-4xl text-gray-300">No Image</div>
         </div>
       </Link>
       <div className="p-4">
@@ -35,7 +35,7 @@ const ProductCard = ({ id, name, price, image, category, phoneBrand }: ProductCa
           <span className="font-semibold">₹{price.toFixed(2)}</span>
         </div>
         <Button 
-          className="w-full bg-black hover:bg-maroon text-white flex items-center justify-center gap-2 mt-2 transition-transform hover:scale-105"
+          className="w-full bg-maroon hover:bg-maroon-light text-white flex items-center justify-center gap-2 mt-2 transition-transform hover:scale-105"
         >
           <ShoppingCart size={16} /> Add to Cart
         </Button>
